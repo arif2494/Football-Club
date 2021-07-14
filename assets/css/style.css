@@ -354,7 +354,7 @@ footer {
 /**.   REsponsive
 **.************************ */
 /* ?--------- redposisve for mobile----------- */
-@media only screen and (max-width: 668px) {
+@media only screen and (min-width: 0px) and (max-width: 668px) {
 	/* `---------Navbar------------- */
 	nav .nav-left {
 		display: none;
@@ -432,5 +432,86 @@ footer {
 	/* `--------  Footer ---------- */
 	.footer-img img {
 		width: 90%;
+	}
+}
+
+/* ?--------- redposisve for Tablet----------- */
+@media only screen and (min-width: 669px) and (max-width: 992px) {
+	.container {
+		width: 100vh;
+	}
+	/* `---------Navbar------------- */
+	nav .nav-left {
+		display: none;
+	}
+	/* `--------Showcase---------- */
+	.area {
+		width: 100vh;
+		height: 500px;
+	}
+	.showcase {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.showcase-text h1 {
+		margin: 0 0 10px 0;
+	}
+
+	.showcase-img img {
+		height: 260px;
+		width: 329px;
+		animation-play-state: paused;
+		margin: 20px 0 20px;
+		position: relative;
+	}
+	/* `--------All players---------- */
+
+	#all-palyers .players-container {
+		width: 100vh;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 27px;
+	}
+	/* `--------Highlights---------- */
+	#highlight .highlight-container {
+		width: 100vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.highlight-text {
+		text-align: center;
+		width: 90%;
+		margin: 0 15px 15px;
+	}
+	.highlight-img img {
+		width: 90vh;
+		height: auto;
+		margin: 20px auto;
+	}
+	/* `--------Match Fixture---------- */
+	#match-fixtures {
+		width: 100vh;
+		background-color: #e5e5e5;
+	}
+	.matches {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	/* `--------  News ---------- */
+	#news h2 {
+		text-align: center;
+	}
+	.all-news {
+		grid-template-columns: 2fr;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	/* `--------  Footer ---------- */
+	footer {
+		width: 100vh;
 	}
 }
