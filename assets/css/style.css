@@ -76,15 +76,18 @@ ul {
 main {
 	margin-top: 70px;
 }
-main .container {
-	width: 1050px;
-}
+
 /* ?----------All players---------- */
-.all-palyers {
+#all-palyers {
+	margin-bottom: 165px;
+}
+#all-palyers .players-container {
+	width: 1050px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	row-gap: 27px;
 	column-gap: 30px;
+	margin: 0 auto;
 }
 .card {
 	width: 330px;
@@ -110,4 +113,77 @@ main .container {
 }
 .card-text p {
 	margin: 0;
+}
+
+/* ?---------Highlight section---------- */
+#highlight .highlight-container {
+	max-width: 1162px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.highlight-text {
+	width: 469px;
+}
+.highlight-text h2 {
+	margin: 0 0 8px;
+	font-size: 48px;
+	font-weight: 700;
+	color: #0a0826;
+}
+.highlight-text p {
+	margin: 0 0 24px;
+}
+.highlight-img img {
+	width: 567px;
+	height: 427px;
+}
+
+/* ?----------All Match fixtures---------- */
+#match-fixtures {
+	background-color: #e5e5e5;
+	padding: 100px 0 100px;
+}
+.matches {
+	display: flex;
+	justify-content: space-between;
+}
+.match {
+	width: 280px;
+	border: 1px solid rgba(128, 128, 128, 0.466);
+	border-radius: 0px 20px 0 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 15px 15px 0;
+	background-color: #fff;
+}
+.match-club {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.match-club span {
+	background-color: var(--btn-color);
+	color: #fff;
+	font-size: 700;
+	padding: 20px 10px;
+	border-radius: 20px;
+	font-weight: 900;
+	font-size: 24px;
+	margin: 0 10px;
+}
+.match-team h4 {
+	font-weight: 700;
+	font-size: 19px;
+	color: var(--pt-color);
+}
+.match-club img {
+	height: 60px;
+	width: 60px;
+}
+.match .vs {
+	font-size: 16px;
+	color: var(--st-color);
 }
