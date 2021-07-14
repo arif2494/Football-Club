@@ -22,6 +22,10 @@ body {
 .btn-pink {
 	background-color: var(--btn-color);
 	padding: 10px 30px;
+	text-decoration: none;
+}
+a:visited {
+	color: #fff;
 }
 /* *****************
 *    Header section 
@@ -49,3 +53,16 @@ ul {
 	justify-content: space-between;
 }
 /* ?---------ShowCasae Section---------- */
+.showcase {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.showcase-text h1 {
+	font-weight: 700;
+	font-size: 64px;
+}
+.showcase-img img {
+	width: 556px;
+	height: 456px;
+}
