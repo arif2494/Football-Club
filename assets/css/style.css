@@ -145,6 +145,12 @@ main {
 	background-color: #e5e5e5;
 	padding: 100px 0 100px;
 }
+#match-fixtures h2 {
+	text-align: center;
+	font-weight: 700;
+	color: var(--pt-color);
+	font-size: 36px;
+}
 .matches {
 	display: flex;
 	justify-content: space-between;
@@ -186,4 +192,39 @@ main {
 .match .vs {
 	font-size: 16px;
 	color: var(--st-color);
+}
+
+/* ?----------All News Section---------- */
+#news {
+	margin: 50px 0 50px;
+}
+#news h2 {
+	font-size: 36px;
+	font-weight: 700;
+}
+.all-news {
+	display: grid;
+	grid-template-columns: 2fr repeat(2, 1fr);
+	row-gap: 50px;
+	column-gap: 85px;
+}
+#news .news-1 {
+	position: relative;
+	height: 300px;
+	width: 491px;
+}
+#news .news-2 {
+	position: relative;
+	height: 300px;
+	width: 250px;
+}
+.news-text {
+	position: absolute;
+	bottom: 0;
+	margin-left: 10px;
+}
+.news-text h4 {
+	color: #fff;
+	font-size: 21px;
+	text-shadow: -2px 2px 5px #171717;
 }
