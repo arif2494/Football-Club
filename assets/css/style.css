@@ -115,10 +115,13 @@ main {
 }
 
 .card-text h3 {
+	color: var(--pt-color);
+	font-weight: 700;
 	margin: 16px 0 10px;
 }
 .card-text p {
 	margin: 0;
+	color: var(--st-color);
 }
 
 /* ?---------Highlight section---------- */
@@ -376,7 +379,7 @@ footer {
 		height: 260px;
 		width: 329px;
 		animation-play-state: paused;
-		margin: 20px 0 20px;
+		margin: 10px 0 20px;
 		position: relative;
 	}
 
