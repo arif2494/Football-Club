@@ -307,7 +307,7 @@ footer {
 	}
 }
 
-.showcase-img img {
+header:hover .showcase-img img {
 	animation: kick 2s linear infinite alternate;
 	animation-play-state: running;
 }
