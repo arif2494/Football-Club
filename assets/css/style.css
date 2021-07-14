@@ -470,9 +470,8 @@ footer {
 		position: relative;
 	}
 	/* `--------All players---------- */
-
 	#all-palyers .players-container {
-		width: 100vw;
+		width: 90vw;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		row-gap: 27px;
